@@ -57,3 +57,7 @@ test "Types" {
         mw.end = 0;
     }
 }
+
+test {
+    @import("std").testing.refAllDecls(@This());
+}
